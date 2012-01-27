@@ -1,0 +1,48 @@
+markdown: rdiscount
+pygments: true
+
+name: PDXGit
+email: 
+tagline: 
+location: Portland, Oregon
+github: pdxgit
+identica:
+twitter: pdxgit
+
+default_donation: 5
+default_currency: USD
+donation_url: http://pdxgit.github.com
+
+amazon_payments_account_id:
+
+dwolla_account_id:
+dwolla_memo: Thanks!
+dwolla_repeat_donation: 1
+
+bitcoin_address:
+
+paypal_email: 
+
+google_merchant_id:
+
+pledgie_campaign_id:
+
+google_analytics:
+
+ohloh_account_id: 
+
+ohloh_url:
+
+linkedin_url:
+
+base_url: 
+
+coderwall_username: 
+
+flattr_username: 
+flattr_url: 
+flattr_language: 
+flattr_tags: 
+flattr_category: 
+flattr_title: 
+flattr_image: https://api.flattr.com/button/flattr-badge-large.png

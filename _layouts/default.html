@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Jonathan \"Duke\" Leto" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">PDXGit</a>
+    <a class="extra" href="/">home</a>
+  </div>
+  
+  {{ content }}
+  
+  <div id="copyright">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+  </div>
+  <div class="footer">
+    <div class="contact">
+      <p>
+        {{ site.name }}<br />
+
+        {% if site.tagline %}
+        {{ site.tagline }}<br />
+        {% endif %}
+
+        {{ site.email }}<br />
+      {% if site.twitter %}
+      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button">@{{ site.twitter }}</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+        {% endif %}
+      </p>
+    </div>
+    <div class="contact" style="float:right;">
+      <p>
+      {% if site.github %}
+        <a href="http://github.com/{{ site.github }}/">Github: {{ site.github }}</a><br />
+        {% endif %}
+      {% if site.identica %}
+        <a href="http://identi.ca/{{ site.identica }}">Identi.ca: {{ site.identica }}</a><br />
+        {% endif %}
+      {% if site.linkedin_url %}
+        <a href="{{ site.linkedin_url }}">Linkedin</a><br />
+        {% endif %}
+      {% if site.ohloh_url %}
+        <a href="{{ site.ohloh_url }}">Ohloh</a><br />
+        {% endif %}
+      {% if site.coderwall_username %}
+        <a href="http://coderwall.com/{{ site.coderwall_username }}">Coderwall</a><br />
+        {% endif %}
+      </p>
+    </div>
+    <div class="rss">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<a href="http://github.com/pdxgit/pdxgit.github.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
+<!--
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("");
+pageTracker._trackPageview();
+</script>
+-->
+
+</body>
+</html>
