@@ -16,5 +16,42 @@ use git 1.7.x:
 - git submoudle update --inint --recursive # rec is a new opt to do what you think 
   - meta data has been shifted from external dirs to the core .git dir so that git now knows where to find everything and do the right thing at the right time because of this
 
+[ quick QA ] 
+- how to take an untracked project, but you have a dev and prod dir that should be branches
+  - cd prod -> git init -> git add -> git ci -> git tag
+  - git co -b dev -> del * -> cp -rv ../dev/* . -> git st -> git add -> git tag
+- svn loaddirs ... how do you do something like this in git? 
+  - same as above whipe out working copy, cp new files, st to check, add *, ci, tag
+
+libgit2
+- a magical world
+- reimplement git
+- like kid sister, not a fork or replacement, shares API
+- attempts to fix issues that are baked in to git 1.x for not being a lib 
+- progable, native win support
+- ligher footprint, better for embeded/mobile
+  - direct func calls to repo, less overhead when compaired to CLI toolkit
+- http://libgit2.github.com 
+  - github and GSoC history, github has plans to use in prod though status is unknown at this time
+- what can you do currently? 
+  - open repos
+  - look into repos
+  - create commits, search commits
+- what is not yet possible
+  - no remote access thus push and pull are not yet working
+- repo: https://github.com/libgit2
+  - #libgit2 on irc.freenode 
+  - libgit2@librealist.com #mailinglist
+- how to help? 
+  - need test to be written
+  - contact and see what else can help
+
+how to get involved with pdxgit? 
+  - https://github.com/pdxgit
+  - http://pdxgit.com (will fix soon)
+  - pdxgit@librealist.com #mailinglist
+  
+
+
 
 
