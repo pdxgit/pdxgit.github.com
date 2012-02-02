@@ -53,6 +53,21 @@ how to get involved with pdxgit?
   - propose a meeting topic or give a talk
 
 Collective Agency is awesome, support them it's cheap!
+
+[QA] 
+- what about git-flow?
+  - seems over engenered
+    - why are there dev, release and hotfix branches
+      - you can add them later if you ~really~ need them
+  - it's overkill for 99% of general products 
+    - work-flow is really based on the boxed software model 
+    - if you just have a 'webapp' where current is always live then it's kinda bunk
+  - git is an EXTREAMLY flexible tool so you can look at your flow and then mold the use of the tool to the team, no need to go the extra mile and force a new flow on a team just because of a tool. 
+  - the good thing is that the git-flow command wraps up common patterns
+    - but it does hide what's going on and so when something blows up then what ~really~ happended as it's all hidden
+
+
+- read commit #1 from git://github.com/gitster/git.git it's enlighting
   
 
 
