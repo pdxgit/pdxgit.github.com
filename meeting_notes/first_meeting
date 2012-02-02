@@ -1,0 +1,20 @@
+use git 1.7.x:
+- submodules suck less
+- multi-cherry-pick
+- sparse checkout
+- git grep is multithreaded
+- git-svn grocks svn merges (!!!)
+- git stash corner cases fixed (???)
+  - index item
+- general gitweb improves
+  - code hilite
+- suger for delete branch
+  - git push origin :goner #old syntax to push "nothing"
+  - git push origin --delete goner
+- new diff algorithm "patience"
+- git merge --edit : instead of --nocommit to do a merge with an altered commit msg
+- git submoudle update --inint --recursive # rec is a new opt to do what you think 
+  - meta data has been shifted from external dirs to the core .git dir so that git now knows where to find everything and do the right thing at the right time because of this
+
+
+
