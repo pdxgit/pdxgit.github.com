@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul>
+	{% for meetup in site.categories.announcements %}
+		<li>
+			<a href='{{ meetup.url }}'>
+				{{ meetup.title }}
+			</a>
+		</li>
+	{% endfor %}
+</ul>

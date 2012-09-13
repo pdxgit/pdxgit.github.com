@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul>
+	{% for presentation in site.categories.presentations %}
+		<li>
+			<a href='{{ presentation.url }}'>
+				{{ presentation.title }}
+			</a>
+		</li>
+	{% endfor %}
+</ul>

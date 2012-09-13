@@ -2,14 +2,18 @@
 layout: default
 title: PDX Git
 ---
-
-<div class="content">
-
-Next <a href="http://calagator.org/events/1250462752">meeting!</a>.
-
-Our <a href="http://calagator.org/events/1250461898">first meeting</a>.
-
-
-</div>
-
-
+<div id='asdf'></div>
+<article>
+{% for post in site.posts %}
+	<section class='teaser {{ post.category }}'>
+		<a href='{{ post.url }}' class='teaser-title'>
+			{{ post.title }}
+		</a>
+		{% unless post.category == 'announcements' %}
+			<div class='teaser-content'>
+				{{ post.content | truncatewords: 10 }}
+			</div>
+		{% endunless %}
+	</section>
+{% endfor %}
+</article>
