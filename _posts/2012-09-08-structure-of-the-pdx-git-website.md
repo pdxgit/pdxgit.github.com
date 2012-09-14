@@ -66,7 +66,7 @@ The raw notes can just be pasted into the file; the notes layout shoves them int
 Heads up! The author key isn't yet used by the post layout, and it may never be used. it's still nice to see who wrote the article. You can use the `authors` key if you'd like to specify more than one author of an article:
 
 	authors:
-	 - Constable Huxtable
+	 - Constable Huckabee
 	 - Sheriff Noodleham
 
 # Other stuff
