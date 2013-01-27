@@ -1,0 +1,13 @@
+---
+layout: default
+title: Meetings
+---
+<h1>{{ page.title }}</h1>
+{% for meeting in site.categories.meetings %}
+<article>
+  <header>
+    <a href='{{ meeting.url }}'>{{ meeting.title }}</a>
+  </header>
+  <p>{{ meeting.tldr }}</p>
+</article>
+{% endfor %}

@@ -1,31 +1,11 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-        <!--[if lt IE 9]><script type='text/javascript' src='assets/javascript/html5.js'></script><![endif]-->
-        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-        <script type='text/javascript' src='assets/javascript/prettify.js'></script>
-        <script type='text/javascript' src='assets/javascript/bootstrap-collapse.js'></script>
-        <link rel='stylesheet' type='text/css' href='assets/css/style.css' />
-        <link rel='stylesheet' type='text/css' href='assets/css/bootstrap.css' />
-        <link rel='stylesheet' type='text/css' href='assets/css/prettify.css' />
-        <title>{{ page.title }}</title>
-    </head>
-    <body>
-        <nav id='upper-crust'>
-            <a href='/meetups.html'>Meetups</a>
-            <a href='/presentations.html'>Presentations</a>
-            <a href='/resources.html'>Resources</a>
-        </nav>
-        <article id='meat'>
-            {{ content }}
-        </article>
-        <footer id='lower-crust'>
-            <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
-                cc by nc sa
-            </a>
-            <a href='http://twitter.com/pdxgit'><img src="images/twitter.png"></a>
-            <a href='/atom.xml'><img src="images/rss.png"></a>
-        </footer>
-    </body>
+<html lang='en'>
+  {% include _head.html %}
+  <body>
+    <section class='container'>
+      {% include _navbar.html %}
+      {{ content }}
+      {% include _footer.html %}
+    </section>
+  </body>
 </html>
