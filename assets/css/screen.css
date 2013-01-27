@@ -1,0 +1,41 @@
+body
+{
+  padding-top: 40px;
+}
+
+footer.site {
+  margin: 3.0em 0 0 0;
+  padding: 1.0em 0;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.site-banner {
+  padding: 2.0em 0 2.0em 0;
+}
+
+.site-banner h1 {
+  font-size: 450%;
+  margin-bottom: 0.2em;
+  text-align: center;
+}
+
+.site-banner .lead {
+  font-size: 165%;
+  text-align: center;
+}
+
+p.calagator-link {
+  padding: 1.0em 0;
+}
+
+p.calagator-link a:link,
+p.calagator-link a:visited,
+p.calagator-link a:hover,
+p.calagator-link a:active {
+  background: rgb(162, 201, 113);
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 1.0em;
+}
