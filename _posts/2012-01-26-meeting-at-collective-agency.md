@@ -1,9 +1,7 @@
 ---
-layout: announcement
-category: announcements
-tag: february-2012-meetup
-
-title: Meetup! February 1st, 2012 at Collective Agency
+layout: article
+category: meetings
+title: "Meeting: February 1st, 2012 at Collective Agency"
 ---
 <div class="vevent">
   <h1 class="summary">PDX Git Together</h1>

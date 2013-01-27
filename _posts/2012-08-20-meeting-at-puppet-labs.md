@@ -1,9 +1,7 @@
 ---
-layout: announcement
-category: announcements
-tag: august-2012-meetup
-
-title: Meetup! August 27th, 2012 at Puppet Labs
+layout: article
+category: meetings
+title: "Meeting: August 27th, 2012 at Puppet Labs"
 ---
 <div class="vevent">
   <h1 class="summary">PDX Git Together</h1>

@@ -1,9 +1,10 @@
 ---
-layout: notes
-category: notes
-tag: august-2012-meetup
-title: Notes from the August 2012 meetup at Puppet Labs
+layout: article
+category: meetings
+title: "Meeting Notes: August 2012 at Puppet Labs"
 ---
+
+<pre>
 We had a great meeting. There was lots of discussion and hopefully everyone learned something. I'm grateful to all the folks that contributed questions and comments throughout the evening. 
 
 Here's some of what we talked about tonight....
@@ -136,3 +137,4 @@ When the above is sourced, you can run `myprompt; devprompt` and get a prompt wi
     myproject^mybranch ∴ ree-1.8.7-2011.03@everything :) 
 Or `myprompt; gitprompt` for username, hostname, Git repo name, branch name, command number, time, and whether last command exited successfully:
     me@myhostname:myproject^mybranch #1234 00:34 :) 
+</pre>
