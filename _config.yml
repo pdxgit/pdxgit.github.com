@@ -5,7 +5,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Procfile
-name: PDXGit
-location: "Portland, Oregon"
-github: pdxgit
-twitter: pdxgit
