@@ -1,19 +1,28 @@
 ---
 layout: default
-title: PDX Git
+title: Home
 ---
-<div id='main'></div>
-<article>
-{% for post in site.posts %}
-	<section class='teaser {{ post.category }}'>
-		<a href='{{ post.url }}' class='teaser-title'>
-			{{ post.title }}
-		</a>
-		{% unless post.category == 'announcements' %}
-			<div class='teaser-content'>
-				{{ post.content | truncatewords: 10 }}
-			</div>
-		{% endunless %}
-	</section>
+<div class='site-banner'>
+  <h1>PDX Git Together</h1>
+  <p class='lead'>The monthly user group that <strong><em>doesn't</em></strong> lose your data!</p>
+</div>
+<div class="row">
+  <section class='span4'>
+    {% include _rfp.html %}
+  </section>
+  <section class='span4'>
+    {% include _upcoming_meeting.html %}
+  </section>
+  <section class='span4'>
+    <div class='well well-large'>
+      <h2>Recently added</h2>
+      <ul>
+{% for post in site.posts limit:7 %}
+        <li>
+          <a href='{{ post.url }}'>{{ post.title }}</a>{% if post.tldr %}- {{ post.tldr }}{% endif %}
+        </li>
 {% endfor %}
-</article>
+      </ul>
+    </div>
+  </section>
+</div>
