@@ -2,7 +2,8 @@
 
 This is the code behind http://pdxgit.com (AKA http://pdxgit.github.com). Patches welcome :)
 
-This site is powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][3].
+This site is hosted using [Github Pages][4] and powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][3].
+
 
 # License
 
@@ -13,3 +14,4 @@ This site is powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][
 [1]: http://jekyllrb.com
 [2]: http://twitter.github.com/bootstrap/
 [3]: http://fortawesome.github.com/Font-Awesome/
+[4]: http://pages.github.com
