@@ -14,6 +14,8 @@ If you would like to contribute to this repo, please send a pull request!
 
 If you would like to add a future PDX Git Together talk, please send a pull request!
 
+Live demo!
+
 # License
 
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode">
