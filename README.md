@@ -10,11 +10,9 @@ If you already have commit bit to this repo, feel free to push to branches, but
 please send a pull request for code review unless you are fixing something very
 small (like a broken link or typo).
 
-If you would like to contribute to this repo, please send a pull request!
+If you would like to contribute to this repo, fork and please send a pull request!
 
 If you would like to add a future PDX Git Together talk, please send a pull request!
-
-Live demo!
 
 # License
 
