@@ -1,11 +1,11 @@
 ---
 layout: default
-title: PDX Git Together Sponsors
+title: Grumpy Git Together Sponsors
 ---
 
 # Sponsors
 
-Here are the various sponsors that make PDX Git Together possible, by donating venue space, food, drinks and other services.
+Here are the various sponsors that make Grumpy Git Together possible, by donating venue space, food, drinks and other services.
 
 Thanks!
 

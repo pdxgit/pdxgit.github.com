@@ -1,4 +1,4 @@
-# PDX Git Together Website
+# Grumpy Git Together Website
 
 This is the code behind http://grumpygits.github.com (AKA http://grumpygits.github.com). Patches welcome :)
 
@@ -12,7 +12,7 @@ small (like a broken link or typo).
 
 If you would like to contribute to this repo, fork and please send a pull request!
 
-If you would like to add a future PDX Git Together talk, please send a pull request!
+If you would like to add a future Grumpy Git Together talk, please send a pull request!
 
 # License
 
