@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>PDXGit</title>
- <link href="http://pdxgit.github.com/atom.xml" rel="self"/>
- <link href="http://pdxgit.github.com/"/>
+ <link href="http://grumpygits.github.com/atom.xml" rel="self"/>
+ <link href="http://grumpygits.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://pdxgit.github.com/</id>
+ <id>http://grumpygits.github.com/</id>
  <author>
    <name>Jonathan "Duke" Leto</name>
    <email>jonathan@leto.net</email>
@@ -18,9 +18,9 @@ layout: nil
     {% if post.status != 'unpublished' %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://pdxgit.github.com{{ post.url }}"/>
+   <link href="http://grumpygits.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://pdxgit.github.com{{ post.id }}</id>
+   <id>http://grumpygits.github.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
     {% endif %}
