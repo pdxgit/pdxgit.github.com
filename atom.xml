@@ -3,27 +3,26 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>PDXGit</title>
- <link href="http://pdxgit.github.com/atom.xml" rel="self"/>
- <link href="http://pdxgit.github.com/"/>
+
+ <title>Grumpy Gits Singapore</title>
+ <link href="http://grumpygits.github.io/atom.xml" rel="self"/>
+ <link href="http://grumpygits.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://pdxgit.github.com/</id>
+ <id>http://grumpygits.github.io</id>
  <author>
-   <name>Jonathan "Duke" Leto</name>
-   <email>jonathan@leto.net</email>
+   <name>Grumpy Gits Singapore</name>
  </author>
 
  {% for post in site.posts %}
     {% if post.status != 'unpublished' %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://pdxgit.github.com{{ post.url }}"/>
+   <link href="http://grumpygits.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://pdxgit.github.com{{ post.id }}</id>
+   <id>http://grumpygits.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
     {% endif %}
  {% endfor %}
- 
+
 </feed>

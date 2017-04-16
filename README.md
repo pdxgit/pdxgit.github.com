@@ -1,8 +1,8 @@
-# PDX Git Together Website
+# Grumpy Git Together Website
 
-This is the code behind http://pdxgit.com (AKA http://pdxgit.github.com). Patches welcome :)
+This is the code behind http://grumpygits.github.com (AKA http://grumpygits.github.com). Patches welcome :)
 
-http://pdxgit.com is hosted using [Github Pages][4] and powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][3].
+http://grumpygits.github.com is hosted using [Github Pages][4] and powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][3].
 
 # Contributing
 
@@ -12,7 +12,7 @@ small (like a broken link or typo).
 
 If you would like to contribute to this repo, fork and please send a pull request!
 
-If you would like to add a future PDX Git Together talk, please send a pull request!
+If you would like to add a future Grumpy Git Together talk, please send a pull request!
 
 # License
 
